@@ -1,0 +1,90 @@
+[
+    {
+        "name":"Janet L. Yellen",
+        "surname":"Yellen",
+        "title":"Chair",
+        "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
+    },
+    {
+        "name":"William C. Dudley",
+        "surname":"Dudley",
+        "title":"Vice Chairman",
+        "bank":"New York",
+        "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
+    },
+    {
+        "name":"Lael Brainard",
+        "surname":"Brainard",
+        "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
+    },
+    {
+        "name":"Charles L. Evans",
+        "surname":"Evans",
+        "bank":"Chicago",
+        "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
+    },
+    {
+        "name":"Stanley Fischer",
+        "surname":"Fischer",
+        "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
+    },
+    {
+        "name":"Jeffrey M. Lacker",
+        "surname":"Lacker",
+        "bank":"Richmond",
+        "groups":["Reserve Bank Presidents", "Voting Members", "Economists"]
+    },
+    {
+        "name":"Dennis P. Lockhart",
+        "surname":"Lockhart",
+        "bank":"Atlanta",
+        "groups":["Reserve Bank Presidents", "Voting Members", "Dove"]
+    },
+    {
+        "name":"Jerome H. Powell",
+        "surname":"Powell",
+        "groups":["Board of Governors", "Voting Members", "Lawyers"]
+    },
+    {
+        "name":"Daniel K. Tarullo",
+        "surname":"Tarullo",
+        "groups":["Board of Governors", "Voting Members", "Lawyers", "Dove"]
+    },
+    {
+        "name":"John C. Williams",
+        "surname":"Williams",
+        "bank":"San Francisco",
+        "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
+    },
+    {
+        "name":"James Bullard",
+        "surname":"Bullard",
+        "bank":"St. Louis",
+        "groups":["Reserve Bank Presidents", "Economists"]
+    },
+    {
+        "name":"Esther L. George",
+        "surname":"George",
+        "bank":"Kansas City",
+        "groups":["Reserve Bank Presidents", "Hawk"]
+    },
+    {
+        "name":"Loretta J. Mester",
+        "surname":"Mester",
+        "bank":"Cleveland",
+        "groups":["Reserve Bank Presidents", "Economists", "Hawk"]
+    },
+    {
+        "name":"Eric Rosengren",
+        "surname":"Rosengren",
+        "bank":"Boston",
+        "groups":["Reserve Bank Presidents", "Economists", "Dove"]
+    },
+    {
+        "name":"Michael Strine",
+        "surname":"Strine",
+        "title":"First Vice President",
+        "bank":"New York",
+        "groups":["Reserve Bank Presidents"]
+    }
+]

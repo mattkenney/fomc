@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- @source:https://github.com/mattkenney/fomc -->
+<link href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.brown-light_green.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<title>Know Your FOMC</title>
+<style type="text/css">
+text.fomc{color:#795548;font-size:13px;opacity:0.8}
+</style>
+</head>
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+<header class="mdl-layout__header">
+<div class="mdl-layout__header-row">
+<span class="mdl-layout-title">Know Your FOMC</span>
+</div>
+</header>
+<main class="mdl-layout__content">
+<div class="page-content">
+<div class="mdl-grid">
+<div class="mdl-cell mdl-cell--8-col">
+<svg xmlns="http://www.w3.org/2000/svg" height="500" width="800">
+<svg id="venn"></svg>
+<svg id="fomc"></svg>
+</svg>
+</div>
+<div class="mdl-cell mdl-cell--4-col">
+Select one to three groups.
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp" id="groups">
+<thead>
+<tr><th class="mdl-data-table__cell--non-numeric">Groups to Show</th></tr>
+</thead>
+<tbody>
+<tr><td class="mdl-data-table__cell--non-numeric">Board of Governors</td></tr>
+<tr><td class="mdl-data-table__cell--non-numeric">Reserve Bank Presidents</td></tr>
+<tr><td class="mdl-data-table__cell--non-numeric">Economists</td></tr>
+<tr><td class="mdl-data-table__cell--non-numeric">Lawyers</td></tr>
+<tr><td class="mdl-data-table__cell--non-numeric">Voting Members</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+<script src="js/venn.min.js"></script>
+<script src="js/fomc.js"></script>
+</body>
+</html>
