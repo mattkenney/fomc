@@ -26,10 +26,30 @@ function addMembers(data) {
         .enter()
         .append("text")
         .text(function (item) { return item.surname; })
-        .attr("x", function (item) { return item.x; })
-        .attr("y", function (item) { return item.y; })
+        .attr("id", function (item, n) { return ("member" + n); })
+        .attr("x", _.property("x"))
+        .attr("y", _.property("y"))
         .attr("class", "fomc")
         .attr("text-anchor", "middle")
+        ;
+    d3.select("#members").selectAll("div")
+        .data(data)
+        .enter()
+        .append("div")
+        .attr("for", function (item, n) { return ("member" + n); })
+        .attr("class", "mdl-tooltip")
+        ;
+    d3.select("#members").selectAll("div")
+        .each(function (item) {
+            var sel = d3.select(this);
+            sel.append("div").attr("class", "image").style(item.image);
+            sel.append("div").text(_.property("name"));
+            sel.append("div").text(_.property("title"));
+            sel.append("div").text(function (item) {
+                return (item.bank ? "FRB of " + item.bank : "Board of Governors");
+            });
+            componentHandler.upgradeElement(this);
+        })
         ;
     updateMembers();
 }
@@ -145,8 +165,8 @@ function updateMembers()
     }
     d3.selectAll("#fomc text")
         .transition()
-        .attr("x", function (data) { return data.x; })
-        .attr("y", function (data) { return data.y; })
+        .attr("x", _.property("x"))
+        .attr("y", _.property("y"))
         ;
 }
 
@@ -156,6 +176,9 @@ function updateVenn() {
         return;
     }
     selected = data;
+    if (window.ga) {
+        ga('send', 'event', 'interaction', 'venn', selected.join(","));
+    }
     if (data.length === 0 || data.length > 3) {
         d3.select("#venn").datum([]).selectAll("g.venn-area").remove();
         updateMembers();

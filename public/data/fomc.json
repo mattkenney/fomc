@@ -2,12 +2,20 @@
     {
         "name":"Janet L. Yellen",
         "surname":"Yellen",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/yellen_janet_rdax_161x201.jpg)"
+        },
         "title":"Chair",
         "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
     },
     {
         "name":"William C. Dudley",
         "surname":"Dudley",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/ny_dudley.jpg)"
+        },
         "title":"Vice Chairman",
         "bank":"New York",
         "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
@@ -15,74 +23,128 @@
     {
         "name":"Lael Brainard",
         "surname":"Brainard",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/brainard_lael.gif)"
+        },
         "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
     },
     {
         "name":"Charles L. Evans",
         "surname":"Evans",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/chi_evans.jpg)"
+        },
         "bank":"Chicago",
         "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
     },
     {
         "name":"Stanley Fischer",
         "surname":"Fischer",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/fischer_stanley.gif)"
+        },
         "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
     },
     {
         "name":"Jeffrey M. Lacker",
         "surname":"Lacker",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/rich_lacker_rdax_153x201.jpg)"
+        },
         "bank":"Richmond",
         "groups":["Reserve Bank Presidents", "Voting Members", "Economists"]
     },
     {
         "name":"Dennis P. Lockhart",
         "surname":"Lockhart",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/lockhart_2.jpg)"
+        },
         "bank":"Atlanta",
         "groups":["Reserve Bank Presidents", "Voting Members", "Dove"]
     },
     {
         "name":"Jerome H. Powell",
         "surname":"Powell",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/powell_jerome.jpg)"
+        },
         "groups":["Board of Governors", "Voting Members", "Lawyers"]
     },
     {
         "name":"Daniel K. Tarullo",
         "surname":"Tarullo",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/tarullo_daniel.jpg)"
+        },
         "groups":["Board of Governors", "Voting Members", "Lawyers", "Dove"]
     },
     {
         "name":"John C. Williams",
         "surname":"Williams",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/sf_williams.jpg)"
+        },
         "bank":"San Francisco",
         "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
     },
     {
         "name":"James Bullard",
         "surname":"Bullard",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/sf_williams.jpg)"
+        },
         "bank":"St. Louis",
         "groups":["Reserve Bank Presidents", "Economists"]
     },
     {
         "name":"Esther L. George",
         "surname":"George",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/kc_george_153x201.jpg)"
+        },
         "bank":"Kansas City",
         "groups":["Reserve Bank Presidents", "Hawk"]
     },
     {
         "name":"Loretta J. Mester",
         "surname":"Mester",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/people_MesterLoretta_600.jpg)"
+        },
         "bank":"Cleveland",
         "groups":["Reserve Bank Presidents", "Economists", "Hawk"]
     },
     {
         "name":"Eric Rosengren",
         "surname":"Rosengren",
+        "image":
+        {
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/bos_rosengren_rdax_153x201.jpg)"
+        },
         "bank":"Boston",
         "groups":["Reserve Bank Presidents", "Economists", "Dove"]
     },
     {
         "name":"Michael Strine",
         "surname":"Strine",
+        "image":
+        {
+            "background-image":"url(http://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/2/4f/24fb5151-e07a-5801-b9bf-dd6182e1d4ce/50f85db5a1ca5.image.jpg)",
+            "background-position":"-30px 0px",
+            "background-size":"250%"
+        },
         "title":"First Vice President",
         "bank":"New York",
         "groups":["Reserve Bank Presidents"]
