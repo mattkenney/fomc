@@ -7,7 +7,8 @@
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/yellen_janet_rdax_161x201.jpg)"
         },
         "title":"Chair",
-        "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
+        "education":"Yale Economics PhD 1971",
+        "groups":["Board of Governors", "Voting Members", "Economists"]
     },
     {
         "name":"William C. Dudley",
@@ -17,8 +18,9 @@
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/ny_dudley.jpg)"
         },
         "title":"Vice Chairman",
+        "education":"UC Berkley Economics PhD 1982",
         "bank":"New York",
-        "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
+        "groups":["Reserve Bank Presidents", "Voting Members", "Economists"]
     },
     {
         "name":"Lael Brainard",
@@ -27,7 +29,8 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/brainard_lael.gif)"
         },
-        "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
+        "education":"Harvard Economics PhD 1989",
+        "groups":["Board of Governors", "Voting Members", "Economists"]
     },
     {
         "name":"Charles L. Evans",
@@ -36,8 +39,9 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/chi_evans.jpg)"
         },
+        "education":"Carnegie-Mellon Econ PhD 1989",
         "bank":"Chicago",
-        "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
+        "groups":["Reserve Bank Presidents", "Voting Members", "Economists"]
     },
     {
         "name":"Stanley Fischer",
@@ -46,7 +50,8 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/fischer_stanley.gif)"
         },
-        "groups":["Board of Governors", "Voting Members", "Economists", "Dove"]
+        "education":"MIT Economics PhD 1969",
+        "groups":["Board of Governors", "Voting Members", "Economists"]
     },
     {
         "name":"Jeffrey M. Lacker",
@@ -55,6 +60,7 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/rich_lacker_rdax_153x201.jpg)"
         },
+        "education":"Wisconsin Economics PhD 1984",
         "bank":"Richmond",
         "groups":["Reserve Bank Presidents", "Voting Members", "Economists"]
     },
@@ -65,8 +71,9 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/lockhart_2.jpg)"
         },
+        "education":"Stanford, Johns Hopkins",
         "bank":"Atlanta",
-        "groups":["Reserve Bank Presidents", "Voting Members", "Dove"]
+        "groups":["Reserve Bank Presidents", "Voting Members"]
     },
     {
         "name":"Jerome H. Powell",
@@ -75,6 +82,7 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/powell_jerome.jpg)"
         },
+        "education":"Georgetown JD 1979",
         "groups":["Board of Governors", "Voting Members", "Lawyers"]
     },
     {
@@ -84,7 +92,8 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/bios/board/tarullo_daniel.jpg)"
         },
-        "groups":["Board of Governors", "Voting Members", "Lawyers", "Dove"]
+        "education":"Michigan JD 1977",
+        "groups":["Board of Governors", "Voting Members", "Lawyers"]
     },
     {
         "name":"John C. Williams",
@@ -93,8 +102,9 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/sf_williams.jpg)"
         },
+        "education":"Stanford Economics PhD 1994",
         "bank":"San Francisco",
-        "groups":["Reserve Bank Presidents", "Voting Members", "Economists", "Dove"]
+        "groups":["Reserve Bank Presidents", "Voting Members", "Economists"]
     },
     {
         "name":"James Bullard",
@@ -103,6 +113,7 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/sf_williams.jpg)"
         },
+        "education":"Indiana Economics PhD 1990",
         "bank":"St. Louis",
         "groups":["Reserve Bank Presidents", "Economists"]
     },
@@ -113,8 +124,9 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/kc_george_153x201.jpg)"
         },
+        "education":"Missouri Western, Missouri",
         "bank":"Kansas City",
-        "groups":["Reserve Bank Presidents", "Hawk"]
+        "groups":["Reserve Bank Presidents"]
     },
     {
         "name":"Loretta J. Mester",
@@ -123,8 +135,9 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/people_MesterLoretta_600.jpg)"
         },
+        "education":"Princeton Economics PhD 1985",
         "bank":"Cleveland",
-        "groups":["Reserve Bank Presidents", "Economists", "Hawk"]
+        "groups":["Reserve Bank Presidents", "Economists"]
     },
     {
         "name":"Eric Rosengren",
@@ -133,8 +146,9 @@
         {
             "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/bos_rosengren_rdax_153x201.jpg)"
         },
+        "education":"Wisconsin Economics PhD 1986",
         "bank":"Boston",
-        "groups":["Reserve Bank Presidents", "Economists", "Dove"]
+        "groups":["Reserve Bank Presidents", "Economists"]
     },
     {
         "name":"Michael Strine",
@@ -146,6 +160,7 @@
             "background-size":"250%"
         },
         "title":"First Vice President",
+        "education":"Johns Hopkins",
         "bank":"New York",
         "groups":["Reserve Bank Presidents"]
     }
