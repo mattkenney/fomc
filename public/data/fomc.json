@@ -111,7 +111,9 @@
         "surname":"Bullard",
         "image":
         {
-            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/bullard2_rdax_149x201.jpg)"
+            "background-image":"url(http://www.federalreserve.gov/aboutthefed/gifjpg/bullard2_rdax_149x201.jpg)",
+            "background-position": "-10px -2px",
+            "background-size": "50px auto"
         },
         "education":"Indiana Economics PhD 1990",
         "bank":"St. Louis",
