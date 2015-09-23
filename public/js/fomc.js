@@ -48,9 +48,13 @@ function addMembers(data) {
             sel.append("div").text(function (item) {
                 return (item.bank ? "FRB of " + item.bank : "Board of Governors");
             });
-            if (!_.includes(item.groups, "Voting Members"))
+            if (_.includes(item.groups, "FOMC"))
             {
-                sel.append("div").text("Non-voting in 2015");
+                sel.append("div").text("FOMC");
+            }
+            else if (_.includes(item.groups, "FOMC Alternate"))
+            {
+                sel.append("div").text("FOMC Alternate");
             }
             sel.append("div").text(_.property("education"));
             componentHandler.upgradeElement(this);
@@ -184,7 +188,7 @@ function updateVenn() {
     if (window.ga) {
         ga('send', 'event', 'interaction', 'venn', selected.join(","));
     }
-    if (data.length === 0 || data.length > 3) {
+    if (data.length === 0 || data.length > 2) {
         d3.select("#venn").datum([]).selectAll("g.venn-area").remove();
         updateMembers();
         return;
